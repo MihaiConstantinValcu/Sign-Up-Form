@@ -42,3 +42,45 @@ body {
     width: 1em;
     height: auto
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex: 1;
+    padding: 0px 20px
+}
+
+main>div.sign-up-form {
+    justify-content: center;
+}
+
+main>div.submit {
+    justify-content: flex-start;
+}
+
+.description {}
+
+main>div:nth-of-type(odd) {
+    background-color: rgb(240, 240, 240);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 10px;
+}
+
+label,
+input {
+    box-sizing: border-box;
+    width: 40%;
+}

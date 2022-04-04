@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+.hero {
+    background-image: url(./resources/hero.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 100vh;
+}
+
+.hero-text {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+    font-family: Norse;
+    src: url(./resources/Norse-Bold.otf);
+}
+
+.hero-text h1 {
+    font-family: Norse;
+    color: white;
+    font-size: 5em;
+    background: none
+}
+
+#logo {
+    width: 1em;
+    height: auto
+}
